@@ -30,7 +30,16 @@ npm install
 
 npm start
 
-#### Step-4 : Run Cypress Tests to perform validations on the app
+#### Step-4 : Run Cypress Tests in console to perform validations on the app
 /* In second terminal, run Cypress tests using below script which is now added to package.json */
 
+cd ShoppingCart
 npm run cypress-testing
+
+Output is printed on Console.
+
+#### Step-5 : To Verify Results from above execution go to results folder and view html files created for this run.
+cd cypress/results
+
+#### Step-6 : To run Cypress test using built-in UI, use this command:
+npx cypress open
