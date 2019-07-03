@@ -1,0 +1,13 @@
+{
+    "baseUrl": "http://localhost:3000",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "reporter" : "mochawesome",
+    "reporterOptions" : 
+        {
+        "reportDir": "cypress/results",
+        "reportFilename" : "React-Shopping-Cart-Tests",
+        "overwrite": false,
+        "inline": true
+        }
+}
